@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    /* Portfolio color scheme */
+    --portfolio-dark: 5 5% 2%; /* #050505 */
+    --portfolio-white: 0 0% 100%; /* #FFFFFF */
+    --portfolio-accent: 179 100% 40%; /* #00CEBE */
+    --portfolio-muted: 12 8% 58%; /* #9D8B8B */
+    --portfolio-divider: 220 23% 15%; /* #171C27 */
+
+    /* Updated design system colors */
+    --background: 5 5% 2%;
+    --foreground: 0 0% 100%;
+
+    --card: 5 5% 2%;
+    --card-foreground: 0 0% 100%;
+
+    --popover: 5 5% 2%;
+    --popover-foreground: 0 0% 100%;
+
+    --primary: 0 0% 100%;
+    --primary-foreground: 5 5% 2%;
+
+    --secondary: 220 23% 15%;
+    --secondary-foreground: 0 0% 100%;
+
+    --muted: 12 8% 58%;
+    --muted-foreground: 0 0% 100%;
+
+    --accent: 179 100% 40%;
+    --accent-foreground: 0 0% 100%;
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 220 23% 15%;
+    --input: 220 23% 15%;
+    --ring: 179 100% 40%;
+
+    --radius: 0.5rem;
+  }
+
+  .dark {
+    /* Same colors for dark mode since this is primarily a dark design */
+    --background: 5 5% 2%;
+    --foreground: 0 0% 100%;
+
+    --card: 5 5% 2%;
+    --card-foreground: 0 0% 100%;
+
+    --popover: 5 5% 2%;
+    --popover-foreground: 0 0% 100%;
+
+    --primary: 0 0% 100%;
+    --primary-foreground: 5 5% 2%;
+
+    --secondary: 220 23% 15%;
+    --secondary-foreground: 0 0% 100%;
+
+    --muted: 12 8% 58%;
+    --muted-foreground: 0 0% 100%;
+
+    --accent: 179 100% 40%;
+    --accent-foreground: 0 0% 100%;
+
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 220 23% 15%;
+    --input: 220 23% 15%;
+    --ring: 179 100% 40%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+    font-family: 'Inter', 'General Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  }
+
+  /* General Sans fallback typography */
+  .font-general {
+    font-family: 'Inter', 'General Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  }
+}
