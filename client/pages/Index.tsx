@@ -308,7 +308,7 @@ export default function Index() {
                   </h3>
                 </div>
                 <span className="text-base sm:text-lg md:text-[36px] md:leading-[47.916px] text-portfolio-white ml-auto">
-                  2020 - Current
+                  2022 - Current
                 </span>
               </div>
               <div className="w-full h-[1px] bg-portfolio-divider"></div>
@@ -324,7 +324,7 @@ export default function Index() {
                     className="w-12 h-12 sm:w-16 sm:h-16 md:w-[84px] md:h-[84px] object-contain"
                   />
                   <h3 className="text-lg sm:text-xl md:text-[36px] md:leading-[47.916px] text-portfolio-white">
-                    Flavorquest
+                    Flavorquest (Personal Project)
                   </h3>
                 </div>
                 <span className="text-base sm:text-lg md:text-[36px] md:leading-[47.916px] text-portfolio-white ml-auto">
@@ -344,7 +344,7 @@ export default function Index() {
                     className="w-12 h-12 sm:w-16 sm:h-16 md:w-[84px] md:h-[84px] object-contain"
                   />
                   <h3 className="text-lg sm:text-xl md:text-[36px] md:leading-[47.916px] text-portfolio-white">
-                    Firstbank
+                    Firstbank (Independent Contractor)
                   </h3>
                 </div>
                 <span className="text-base sm:text-lg md:text-[36px] md:leading-[47.916px] text-portfolio-white ml-auto">
@@ -386,7 +386,7 @@ export default function Index() {
                   </h3>
                 </div>
                 <span className="text-base sm:text-lg md:text-[36px] md:leading-[47.916px] text-portfolio-white ml-auto">
-                  2016 - 2020
+                  2018 - 2021
                 </span>
               </div>
             </div>
