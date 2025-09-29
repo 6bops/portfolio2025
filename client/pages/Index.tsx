@@ -112,7 +112,7 @@ export default function Index() {
           <Link to="/projects/firstbank" className="block group cursor-pointer">
             <div className="space-y-8 transition-transform duration-300 group-hover:scale-[1.02]">
               <img
-                src="https://api.builder.io/api/v1/image/assets/TEMP/177c3fba1a6359a1962f5b654629c8eb2a9774ab?width=2514"
+                src="/firstbank-dashboard.png"
                 alt="Firstbank project showcase"
                 className="w-full h-auto rounded-lg"
               />
