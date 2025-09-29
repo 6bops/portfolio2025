@@ -43,7 +43,7 @@ export default function Index() {
           <Link to="/projects/indigo-emr" className="block group cursor-pointer">
             <div className="space-y-8 transition-transform duration-300 group-hover:scale-[1.02]">
                 <img
-                src="/Untitled design-5.gif"
+                src="/indigo-dashboard.png"
                 alt="IndigoEMR project showcase"
                 className="w-full h-auto rounded-lg"
                 style={{ background: '#000' }}
